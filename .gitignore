@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+.DS_Store
+*.swp
+~*
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+/apps/
+!/apps/.gitkeep
+
+/var/
+!/var/.gitkeep
+
+/compose.override.yml
+/compose.override.yaml
+/docker-compose.override.yml
+/docker-compose.override.yaml
+
+.idea
+.vscode
+*.log
+
+/Vagrantfile
+/.vagrant
+
+# files rendered from templates
+/etc/lighttpd/conf/20-dio-brand.conf
+/etc/host/hosts
+
+# init scripts
+/etc/common/init/initapp.d-executed/
+!/etc/common/init/initapp.d-executed/.gitkeep
+
+# application excludes
+/.env
+/etc/common/hosts

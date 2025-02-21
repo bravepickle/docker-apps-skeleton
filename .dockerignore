@@ -1,0 +1,12 @@
+/apps
+.git
+.gitignore
+.gitkeep
+.cache
+.idea
+.vscode
+/var
+/assets
+.DS_Store
+*.swp
+~*

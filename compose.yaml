@@ -1,0 +1,3 @@
+name: app # default name. Use .env file with COMPOSE_PROJECT_NAME to override it
+
+services: []
